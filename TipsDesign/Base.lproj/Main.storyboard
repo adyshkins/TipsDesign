@@ -18,8 +18,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qGa-Rv-sZi">
                                 <rect key="frame" x="0.0" y="244" width="414" height="652"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите нужный процент" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcD-rQ-evg">
-                                        <rect key="frame" x="18" y="70" width="378.5" height="25"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите нужный процент" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcD-rQ-evg">
+                                        <rect key="frame" x="10" y="70" width="394" height="25"/>
                                         <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="25"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -92,6 +92,7 @@
                                 <constraints>
                                     <constraint firstItem="nsP-2J-Yci" firstAttribute="top" secondItem="gcD-rQ-evg" secondAttribute="bottom" constant="70" id="3SA-OF-X3P"/>
                                     <constraint firstAttribute="bottom" secondItem="I1c-3U-rEj" secondAttribute="bottom" constant="40" id="3v0-Iw-7pH"/>
+                                    <constraint firstAttribute="trailing" secondItem="gcD-rQ-evg" secondAttribute="trailing" constant="10" id="8cN-oE-4Wc"/>
                                     <constraint firstItem="Zuf-Nr-kkc" firstAttribute="top" secondItem="lDK-cB-clb" secondAttribute="bottom" constant="70" id="9e2-hh-ysX"/>
                                     <constraint firstItem="pD2-x2-8kO" firstAttribute="top" secondItem="Zuf-Nr-kkc" secondAttribute="bottom" constant="70" id="G0r-6E-bVs"/>
                                     <constraint firstAttribute="trailing" secondItem="nsP-2J-Yci" secondAttribute="trailing" constant="40" id="IN4-Vo-xOK"/>
@@ -102,20 +103,20 @@
                                     <constraint firstItem="Zuf-Nr-kkc" firstAttribute="centerX" secondItem="qGa-Rv-sZi" secondAttribute="centerX" id="aRl-CU-A5M"/>
                                     <constraint firstItem="lDK-cB-clb" firstAttribute="centerX" secondItem="qGa-Rv-sZi" secondAttribute="centerX" id="fSc-bv-gHW"/>
                                     <constraint firstItem="lDK-cB-clb" firstAttribute="top" secondItem="gcD-rQ-evg" secondAttribute="bottom" constant="70" id="kYa-nQ-zQL"/>
+                                    <constraint firstItem="gcD-rQ-evg" firstAttribute="leading" secondItem="qGa-Rv-sZi" secondAttribute="leading" constant="10" id="lhY-AO-eL2"/>
                                     <constraint firstItem="z1J-sT-1sl" firstAttribute="top" secondItem="Zuf-Nr-kkc" secondAttribute="bottom" constant="70" id="mFw-nF-Kr4"/>
                                     <constraint firstItem="QwS-Lr-diA" firstAttribute="top" secondItem="gcD-rQ-evg" secondAttribute="bottom" constant="70" id="rBE-Ol-emY"/>
                                     <constraint firstItem="I1c-3U-rEj" firstAttribute="centerX" secondItem="qGa-Rv-sZi" secondAttribute="centerX" id="vAc-B4-Yhd"/>
-                                    <constraint firstItem="gcD-rQ-evg" firstAttribute="centerX" secondItem="qGa-Rv-sZi" secondAttribute="centerX" id="yjM-LQ-Hhk"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите сумму" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="706-I2-skc">
-                                <rect key="frame" x="100.5" y="104" width="213" height="25"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="25"/>
+                                <rect key="frame" x="118.5" y="104" width="177" height="39"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="25"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1000" textAlignment="natural" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="DkR-0b-Hog">
-                                <rect key="frame" x="172" y="169" width="70" height="36"/>
+                                <rect key="frame" x="172" y="183" width="70" height="36"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -159,7 +160,7 @@
                                 <rect key="frame" x="0.0" y="201" width="414" height="641"/>
                                 <color key="backgroundColor" red="0.45098042490000001" green="0.98823523520000001" blue="0.8392156959" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="На каждого человека" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5h-pS-AG0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="На каждого человека" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5h-pS-AG0">
                                 <rect key="frame" x="11" y="70" width="392" height="35"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="35"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -187,7 +188,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="moL-ha-5eG" firstAttribute="centerX" secondItem="4dp-gE-hZj" secondAttribute="centerX" id="1CA-vW-osM"/>
-                            <constraint firstItem="O5h-pS-AG0" firstAttribute="centerX" secondItem="4dp-gE-hZj" secondAttribute="centerX" id="9oj-jC-g0q"/>
                             <constraint firstItem="moL-ha-5eG" firstAttribute="bottom" secondItem="rHn-fw-zz7" secondAttribute="bottom" id="B3M-DG-Lh7"/>
                             <constraint firstAttribute="bottom" secondItem="pN4-aW-hG2" secondAttribute="bottom" id="CrF-cD-R1V"/>
                             <constraint firstItem="O5h-pS-AG0" firstAttribute="top" secondItem="rHn-fw-zz7" secondAttribute="top" constant="70" id="Hfg-bv-JBS"/>
@@ -196,7 +196,9 @@
                             <constraint firstAttribute="bottom" secondItem="pN4-aW-hG2" secondAttribute="bottom" id="PEK-r2-iUa"/>
                             <constraint firstItem="pN4-aW-hG2" firstAttribute="leading" secondItem="rHn-fw-zz7" secondAttribute="leading" id="QHz-AO-6LH"/>
                             <constraint firstItem="pN4-aW-hG2" firstAttribute="trailing" secondItem="rHn-fw-zz7" secondAttribute="trailing" id="kGg-B4-7qK"/>
+                            <constraint firstItem="rHn-fw-zz7" firstAttribute="trailing" secondItem="O5h-pS-AG0" secondAttribute="trailing" constant="11" id="lja-aW-ATj"/>
                             <constraint firstItem="N4W-gy-ViD" firstAttribute="centerX" secondItem="4dp-gE-hZj" secondAttribute="centerX" id="rwq-mw-c3R"/>
+                            <constraint firstItem="O5h-pS-AG0" firstAttribute="leading" secondItem="rHn-fw-zz7" secondAttribute="leading" constant="11" id="saK-q5-5jU"/>
                         </constraints>
                     </view>
                     <connections>
