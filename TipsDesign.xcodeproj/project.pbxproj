@@ -13,6 +13,7 @@
 		2187D0E226CC18060090129E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2187D0E026CC18060090129E /* Main.storyboard */; };
 		2187D0E426CC18070090129E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2187D0E326CC18070090129E /* Assets.xcassets */; };
 		2187D0E726CC18070090129E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2187D0E526CC18070090129E /* LaunchScreen.storyboard */; };
+		2187D0EF26CC318B0090129E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187D0EE26CC318B0090129E /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2187D0E326CC18070090129E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2187D0E626CC18070090129E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2187D0E826CC18070090129E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2187D0EE26CC318B0090129E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2187D0E326CC18070090129E /* Assets.xcassets */,
 				2187D0E526CC18070090129E /* LaunchScreen.storyboard */,
 				2187D0E826CC18070090129E /* Info.plist */,
+				2187D0EE26CC318B0090129E /* ResultViewController.swift */,
 			);
 			path = TipsDesign;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				2187D0DF26CC18060090129E /* ViewController.swift in Sources */,
 				2187D0DB26CC18060090129E /* AppDelegate.swift in Sources */,
 				2187D0DD26CC18060090129E /* SceneDelegate.swift in Sources */,
+				2187D0EF26CC318B0090129E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
